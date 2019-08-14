@@ -2,7 +2,7 @@ def square_array(array)
   sq_array = []
   count = 0 
 while sq_array.count > 0 
-sq_array[count] << (array[count] ** 2)
+sq_array[count] << (array[count] * array[count])
 count += 1 
 end
 sq_array
